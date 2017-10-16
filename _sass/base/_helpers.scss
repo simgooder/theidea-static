@@ -1,0 +1,22 @@
+.cf {
+	@include clearfix;
+
+    &:after {
+        clear: both;
+    }
+}
+
+// Add this class, and a definitive width for a trailing ellipse
+// `...`
+.truncate {
+	@include truncate;
+}
+
+// Floats
+.fl-l {float:left;}
+.fl-r {float:right;}
+
+// Hidden away
+.visually-hidden {
+    @include visually-hidden;
+}

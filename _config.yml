@@ -1,0 +1,14 @@
+# Site settings
+title: The Idea
+email: simgooder@gmail.com
+description: > # this means to ignore new lines
+  This is a long description. 
+
+permalink: /:categories/:title/
+
+url: "http://localhost:3000"
+#url: "http://theidea.io"
+
+# Build settings
+kramdown:
+  input: GFM

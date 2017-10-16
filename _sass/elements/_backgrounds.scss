@@ -1,0 +1,30 @@
+.bg-pattern {
+    background-image: url('../img/sparkle-background.svg');
+    background-repeat: repeat;
+    background-size: 7em;
+    background-attachment: fixed;
+}
+
+.bg-spots {
+    background-image: url('../img/spots-background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-primary {
+    background: $gradient-primary;
+}
+
+
+
+    // Modifiers -------------
+    .-diag-top {
+        z-index: $z-content;
+        @include mq-md {
+            clip-path: polygon(0% 12%, 100% 0, 100% 100%, 0% 100%);
+        }
+        @include mq-sm {
+            clip-path: polygon(0% 4%, 100% 0, 100% 100%, 0% 100%);
+        }
+    }

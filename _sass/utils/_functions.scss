@@ -1,0 +1,30 @@
+// Ensures proper color contrast for readability. 
+//  to use: check-text-color($bg-color)
+
+@function check-text-color($color) {
+  @if (lightness($color) > 65) {
+    @return $color-gray-500; // Lighter backgorund, return dark color
+  } @else {
+    @return $color-white; // Darker background, return light color
+  }
+}
+
+
+// Z-Index Management
+// To Use: `z-index: z("modal")`, returns: z-index: 5;
+// Compliments of Hugo Giraudel : https://www.sitepoint.com/better-solution-managing-z-index-sass/
+@function z($layer) {
+    @if not map-has-key($z-layers, $layer) {
+        @warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
+    }
+    @return map-get($z-layers, $layer);
+}
+
+$z-layers: (
+  "under": -1,
+  "base": 1,
+  "content": 2,
+  "important": 3,
+  "overlay": 4,
+  "modal": 5
+);

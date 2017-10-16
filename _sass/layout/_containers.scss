@@ -1,0 +1,37 @@
+.container-xl {
+    @include container-xl;
+}
+
+.container-lg {
+    @include container-lg;
+}
+
+.container {
+    @include container-md;
+}
+
+.container-sm {
+    @include container-sm;
+}
+
+.container-text {
+    max-width: 37.5em;
+}
+
+.content-panel-full {
+    position: relative;
+
+    min-height: 100%;
+}
+
+// Scaffolding -----------
+footer {
+
+    @include mq-md {
+        margin-top: -6em;
+    }
+    @include mq-sm {
+        margin-top: -8em;
+    }
+}
+

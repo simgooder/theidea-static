@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540px" height="540px" viewBox="0 0 540 540" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design" transform="translate(-50.000000, -50.000000)">
+            <g id="Group" transform="translate(50.000000, 50.000000)">
+                <circle id="Oval-Copy-2" fill-opacity="0.65" fill="#00FFBD" fill-rule="nonzero" cx="270" cy="270" r="270"></circle>
+                <g id="Website-Design" transform="translate(58.000000, 30.000000)">
+                    <path d="M421,481 L3,481 L3,481 C1.34314575,481 3.18419232e-14,479.656854 0,478 L0,3 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 L421,0 L421,0 C422.656854,3.05988668e-14 424,1.34314575 424,3 L424,478 L424,478 C424,479.656854 422.656854,481 421,481 Z" id="Shape" stroke="#4A4A4A" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Image" transform="translate(43.000000, 32.000000)">
+                        <path d="M160,99.4906413 C160,104.185333 159.869333,108 155.105584,108 L4.89441631,108 C0.134400448,108 0,107.871126 0,103.172752 L0,4.82724762 C0,0.132555999 0.130667102,0 4.89441631,0 L155.105584,0 C159.8656,0 160,0.128873888 160,4.82724762 L160,103.172752 L160,99.4906413 Z" id="Shape-Copy-6" stroke="#4A4A4A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M62.5,108 L118,108 L84.7,33 L60.5411765,87.4117647 L40.3,55.5 L7,108 L62.5,108 Z" id="Combined-Shape" fill="#4A4A4A"></path>
+                        <circle id="Oval-Copy" fill="#4A4A4A" fill-rule="nonzero" opacity="0.5" cx="118.5" cy="33.5" r="14.5"></circle>
+                    </g>
+                    <g id="Image-Copy" transform="translate(221.000000, 32.000000)">
+                        <path d="M160,99.4906413 C160,104.185333 159.869333,108 155.105584,108 L4.89441631,108 C0.134400448,108 0,107.871126 0,103.172752 L0,4.82724762 C0,0.132555999 0.130667102,0 4.89441631,0 L155.105584,0 C159.8656,0 160,0.128873888 160,4.82724762 L160,103.172752 L160,99.4906413 Z" id="Shape-Copy-6" stroke="#4A4A4A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M62.5,108 L118,108 L84.7,33 L60.5411765,87.4117647 L40.3,55.5 L7,108 L62.5,108 Z" id="Combined-Shape" fill="#4A4A4A"></path>
+                        <circle id="Oval-Copy" fill="#4A4A4A" fill-rule="nonzero" opacity="0.5" cx="118.5" cy="33.5" r="14.5"></circle>
+                    </g>
+                    <circle id="Oval-9" fill="#4A4A4A" cx="75" cy="220" r="32"></circle>
+                    <circle id="Oval-9-Copy" fill="#4A4A4A" opacity="0.75" cx="166" cy="220" r="32"></circle>
+                    <circle id="Oval-9-Copy-2" fill="#4A4A4A" opacity="0.5" cx="258" cy="220" r="32"></circle>
+                    <circle id="Oval-9-Copy-3" fill="#4A4A4A" opacity="0.25" cx="349" cy="220" r="32"></circle>
+                    <text id="Typography" font-family="Azerty-Regular, Azerty" font-size="51" font-weight="normal" letter-spacing="2.683571" fill="#4A4A4A">
+                        <tspan x="43" y="326">Typography</tspan>
+                    </text>
+                    <text id="Typography" font-family="Azerty-Regular, Azerty" font-size="38" font-weight="normal" letter-spacing="1.56825376" fill="#787878">
+                        <tspan x="43" y="389">Typography</tspan>
+                    </text>
+                    <text id="Typography" font-family="Azerty-Regular, Azerty" font-size="22" font-weight="normal" letter-spacing="0.590158641" fill="#787878">
+                        <tspan x="43" y="432">Typography</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540px" height="555px" viewBox="0 0 540 555" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="121.5" cy="123" rx="121.5" ry="123"></ellipse>
+        <ellipse id="path-3" cx="164.141827" cy="166.168269" rx="164.141827" ry="166.168269"></ellipse>
+    </defs>
+    <g id="Landing-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Research" transform="translate(-50.000000, -50.000000)">
+            <g id="Group" transform="translate(44.000000, 0.000000)">
+                <circle id="Oval-Copy-2" fill-opacity="0.65" fill="#00FFBD" fill-rule="nonzero" cx="276" cy="320" r="270"></circle>
+                <g id="Website" transform="translate(98.000000, 109.000000)">
+                    <polygon id="Shape" stroke="#4A4A4A" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="386 437 0 437 0 1.03800475 386 1.03800475"></polygon>
+                    <polygon id="Shape" stroke="#4A4A4A" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="0 83.04038 386 83.04038 386 0 0 0"></polygon>
+                    <path d="M59.3045822,47.7482185 L227.854447,47.7482185" id="Shape" stroke="#4A4A4A" stroke-width="12" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M54.1024259,312.43943 L222.652291,312.43943" id="Shape" stroke="#787878" stroke-width="12" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M54.1024259,370.567696 L319.412399,370.567696" id="Shape" stroke="#787878" stroke-width="12" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M288.199461,47.7482185 L324.614555,47.7482185" id="Shape" stroke="#4A4A4A" stroke-width="12" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle-path" fill="#787878" fill-rule="nonzero" x="57.2237197" y="144.28266" width="112.366577" height="112.104513"></rect>
+                    <rect id="Rectangle-path" stroke="#4A4A4A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" x="216.409704" y="144.28266" width="112.366577" height="112.104513"></rect>
+                    <polyline id="Path-2" stroke="#979797" stroke-width="2" points="325.890347 256.29926 313.908152 210.581835 310.56248 227.192972 295.579229 179.663455 292.804683 204.303853 279.459895 182.717394 275.872728 214.016525 258.858805 170.050377 249.713734 230.476949 242.716556 190.759875 235.95294 204.303853 229.70228 189.703996 223.76098 216.583949 216.980618 199.570908"></polyline>
+                </g>
+                <g id="website-magnified" transform="translate(82.000000, 78.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                    <g id="Website" mask="url(#mask-2)">
+                        <g transform="translate(-65.423077, -79.240385)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0.510360054" xlink:href="#path-3"></use>
+                            <g id="Website" opacity="0.753057065" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-4)">
+                                <g transform="translate(44.394231, 55.586538)">
+                                    <polygon id="Shape" stroke="#4A4A4A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="481.326923 552.317308 0 552.317308 0 1.5962928 481.326923 1.5962928"></polygon>
+                                    <polygon id="Shape" stroke="#4A4A4A" stroke-width="6" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="0 105.355325 481.326923 105.355325 481.326923 0 0 0"></polygon>
+                                    <text id="Heading-Text" stroke="none" fill="none" font-family="Azerty-Bold, Azerty" font-size="22" font-weight="bold" letter-spacing="0.5901586">
+                                        <tspan x="72" y="77" fill="#4A4A4A">Heading Text</tspan>
+                                    </text>
+                                    <path d="M67.8592055,394.284321 L277.749306,394.284321" id="Shape" stroke="#4A4A4A" stroke-width="12" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M67.8592055,467.713789 L399.264628,467.713789" id="Shape" stroke="#4A4A4A" stroke-width="12" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M359.811602,60.6591263 L405.577112,60.6591263" id="Shape" stroke="#4A4A4A" stroke-width="12" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <rect id="Rectangle-path" stroke="none" fill="#4A4A4A" fill-rule="nonzero" x="71.0154477" y="181.977379" width="140.452774" height="142.070059"></rect>
+                                    <rect id="Rectangle-path" stroke="none" fill="#4A4A4A" fill-rule="nonzero" x="269.858701" y="181.977379" width="140.452774" height="142.070059"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="icon-magnifier" transform="translate(279.000000, 333.000000) rotate(-30.000000) translate(-279.000000, -333.000000) translate(129.000000, 36.000000)">
+                    <path d="M126.070039,292.8328 C54.6014501,281.577185 2.84217094e-14,220.726737 2.84217094e-14,147.348837 C2.84217094e-14,65.9703215 67.1572875,1.42108547e-13 150,1.42108547e-13 C232.842712,1.42108547e-13 300,65.9703215 300,147.348837 C300,220.32672 245.992243,280.913365 175.097276,292.644306 L175.097276,551.406977 L126.070039,551.406977 L126.070039,292.8328 Z M150.583658,268.22093 C217.631456,268.22093 271.984436,214.620044 271.984436,148.5 C271.984436,82.379956 217.631456,28.7790698 150.583658,28.7790698 C83.5358592,28.7790698 29.1828794,82.379956 29.1828794,148.5 C29.1828794,214.620044 83.5358592,268.22093 150.583658,268.22093 Z" id="Combined-Shape" stroke="#4A4A4A" stroke-width="2" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M123.560735,310.021649 L177.599412,310.021649 L177.599412,310.021649 C180.343891,310.021649 182.575386,312.233845 182.599223,314.978221 L184.972065,588.164268 L184.972065,588.164268 C184.996049,590.925587 182.777001,593.183522 180.015681,593.207507 C180.001205,593.207632 179.98673,593.207695 179.972254,593.207695 L121.187894,593.207695 L121.187894,593.207695 C118.42647,593.207695 116.187894,590.969119 116.187894,588.207695 C116.187894,588.193219 116.187956,588.178743 116.188082,588.164268 L118.560924,314.978221 L118.560924,314.978221 C118.584761,312.233845 120.816256,310.021649 123.560735,310.021649 Z" id="Rectangle-4" fill="#4A4A4A"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

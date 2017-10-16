@@ -1,0 +1,122 @@
+@mixin btn-base {
+    position: relative;
+
+    display: inline-block;
+    height: $button-height;
+
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+
+    border-radius: $radius-sm;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+
+    white-space: nowrap;
+    text-decoration: none;
+    line-height: 2.35;
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 0.015em;
+
+    background-color: transparent;
+
+    cursor: pointer;
+
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+    // For a larger hit-zone on mobile
+    @include mq-sm {
+        @include hitzone(0.5em);
+    }
+
+    &:hover,
+    &:focus {
+        box-shadow: $box-shadow-sm;
+    }
+}
+
+// This button is filled with colour
+.btn-primary {
+
+    @include btn-base;
+
+    color: check-text-color($color-primary);
+
+    background-color: $color-primary;
+    border-color: $color-primary;
+
+    &:hover,
+    &:focus {
+        background-color: darken($color-primary, 2%);
+        color: #fff;
+
+        border-color: $color-primary;
+    }
+    &:active {
+
+    }
+}
+
+// This button is filled with colour
+.btn-secondary {
+    
+    @include btn-base;
+
+    color: check-text-color($color-secondary);
+
+    background-color: $color-secondary;
+    border-color: $color-secondary;
+
+    &:hover,
+    &:focus {
+        background-color: rgba($color-secondary, 0.9);
+        color: #fff;
+        border-color: $color-secondary;
+
+    }
+    &:active {
+
+    }
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+.btn-tertiary {
+    @include btn-base;
+
+    color: $color-primary;
+
+    border-color: $color-primary;
+
+    &:hover,
+    &:focus {
+        border-color: $color-primary;
+    }
+    &:active {
+
+    }
+}
+    // Override for the underline on a link
+    a button {
+        text-decoration: none;
+    }
+
+.btn-clear {
+    @include btn-base;
+
+    border-color: transparent;
+    padding: 0;
+
+    &:hover {
+        border-color: transparent;
+        box-shadow: none;
+        opacity: 0.75;
+    }
+}
+
+
+
+
+

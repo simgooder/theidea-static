@@ -1,0 +1,90 @@
+@mixin clearfix {
+	&:before,
+	&:after {
+	    content: " ";
+	    display: table;
+	}
+}
+
+// Adds a larger hitzone to interactive elements. 
+// Provides a better tap experience on mobile.
+@mixin hitzone($val) {
+    &:after {
+        position: absolute;
+        top: -$val;
+        right: -$val;
+        bottom: -$val;
+        left: -$val;
+        content: ' ';
+    }
+}
+
+// Hide things accessibly
+@mixin visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+// Cross-browser placeholder styling
+@mixin placeholder($color) {
+    ::-webkit-input-placeholder {
+        color: $color;      
+    }
+    :-moz-placeholder {
+        color: $color;     
+    }
+    ::-moz-placeholder {
+        color: $color;     
+    }
+    :-ms-input-placeholder {
+        color: $color;
+    }
+}
+
+// Adds an ellipsis on overflowing text
+@mixin truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+// Containers ----------
+
+@mixin container-base {
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    @include mq-md {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+    @include mq-sm {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@mixin container-xl {
+    @include container-base;
+    max-width: $bp-xl;
+}
+@mixin container-lg {
+    @include container-base;
+    max-width: $bp-lg;
+}
+@mixin container-md {
+    @include container-base;
+    max-width: $bp-md;
+}
+@mixin container-sm {
+    @include container-base;
+    max-width: $bp-sm;
+}

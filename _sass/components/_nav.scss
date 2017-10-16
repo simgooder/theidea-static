@@ -1,0 +1,42 @@
+.main-nav-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    width: 100%;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    background-color: #fff;
+
+    box-shadow: 0 0.5em 0.5em -0.5em rgba($color-dark, 0.05);
+}
+
+    .main-nav {
+        margin-left: auto;
+    }
+
+        .main-nav-item {
+            display: inline-block;
+
+            margin-left: 1.5em;
+        }
+
+
+// Logo ---------------
+
+.main-nav-logo {
+    width: 14em;
+    @include mq-sm {
+        display: none;
+    }
+}
+
+.main-nav-logo-mark {
+    width: 2em;
+    @include mq-md {
+        display: none;
+    }
+}

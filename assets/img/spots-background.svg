@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="875px" height="676px" viewBox="0 0 875 676" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 6 + Oval 6 Copy Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="875" height="676"></rect>
+    </defs>
+    <g id="Landing-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(0.000000, -113.000000)">
+            <g id="Oval-6-+-Oval-6-Copy-Mask" transform="translate(0.000000, 113.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <circle id="Oval-6" fill="#00FFBD" opacity="0.399999976" mask="url(#mask-2)" cx="140.5" cy="544.5" r="266.5"></circle>
+                <circle id="Oval-6-Copy" fill="#0F7EE4" opacity="0.399999976" mask="url(#mask-2)" cx="724.5" cy="191.5" r="171.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
