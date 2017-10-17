@@ -5,11 +5,11 @@
         <h1 class="pad--t">
             Let's build remarkable things
         </h1>
-        <button class="btn-secondary mar--r__xs">
-            Start a Project
+        <button class="btn-secondary mar--r__xs" data-trigger-messenger>
+            Start a project
         </button>
-        <button class="btn-primary mar--l__xs">
-            Talk to Us
+        <button class="btn-primary mar--l__xs" data-trigger-messenger>
+            Chat with us
         </button>
 
         <div class="mar--t__lg">
@@ -39,6 +39,45 @@
           "https://www.instagram.com/gohobo.co"
       ]
     }
+</script>
+
+
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function(){ 
+    
+        Smooch.init({ 
+            appToken: '50emn2v6jglh2frqqh9ru137h',
+            customText: {
+                headerText: 'Let\'s talk about your idea.',
+                introductionText: 'What can we help you build?'
+            }
+        });
+
+        var msgBtn = document.querySelectorAll('[data-trigger-messenger]');
+
+        for ( var i = 0; msgBtn.length > i; i++ ) {
+
+            msgBtn[i].addEventListener('click', function(e) {
+               Smooch.open();
+               
+            });
+
+        }
+
+    }, false);
+</script>
+
+<!-- The Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-88736346-1', 'auto');
+    ga('send', 'pageview');
 </script>
 
 </body>

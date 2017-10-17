@@ -22,8 +22,8 @@
 #   url: "https://melodiction.com/"
 #   desc: "Melodiction is a crowdfunding platform for musicians. We designed & developed the brand & web application."
 
-# - name: "Krystale Music"
-#   type: "Website"
-#   thumb: "assets/img/portfolio-krystale-music.jpg"
-#   url: "http://www.krystalemusic.com/"
-#   desc: "Krystale is a Montreal-based singer/songwriter. We designed & developed this custom theme, for a CMS."
+- name: "Krystale Music"
+  type: "Website"
+  thumb: "assets/img/portfolio-krystale-music.jpg"
+  url: "http://www.krystalemusic.com/"
+  desc: "Krystale is a Montreal-based singer/songwriter. We designed & developed this custom theme, for a CMS."
