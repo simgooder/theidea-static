@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="625" viewBox="0 0 1024 625">
+  <defs>
+    <polygon id="shapes-background-b" points="543.226 -101 725 -101 725 924 298 924"/>
+    <filter id="shapes-background-a" width="105.4%" height="102.2%" x="-2.7%" y="-.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.607892215   0 0 0 0 0.607803345   0 0 0 0 0.607922554  0 0 0 1 0"/>
+    </filter>
+    <polygon id="shapes-background-d" points="888.559 0 1023 0 1023 625 512 625"/>
+    <filter id="shapes-background-c" width="116.2%" height="113.3%" x="-8.1%" y="-6.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="13.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.290221632   0 0 0 0 0.290175289   0 0 0 0 0.290237457  0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="matrix(0 1 1 0 100 -100)">
+      <use fill="#000" filter="url(#shapes-background-a)" xlink:href="#shapes-background-b"/>
+      <use fill="#00EDAF" xlink:href="#shapes-background-b"/>
+    </g>
+    <g transform="matrix(1 0 0 -1 0 625)">
+      <use fill="#000" filter="url(#shapes-background-c)" xlink:href="#shapes-background-d"/>
+      <use fill="#2251F3" xlink:href="#shapes-background-d"/>
+    </g>
+  </g>
+</svg>

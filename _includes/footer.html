@@ -5,16 +5,16 @@
         <h1 class="pad--t">
             Let's build remarkable things
         </h1>
-        <button class="btn-secondary mar--r__xs" data-trigger-messenger>
+        <button class="btn-secondary" data-trigger-messenger="What do you want to build?">
             Start a project
         </button>
-        <button class="btn-primary mar--l__xs" data-trigger-messenger>
+        <button class="btn-primary" data-trigger-messenger>
             Chat with us
         </button>
 
         <div class="mar--t__lg">
             <p class="text-center">
-                <a href="http://theidea.io">TheIdea</a> is a small development agency based in Montreal, Quebec.
+                <a href="http://theidea.io">TheIdea</a> is a small development studio based in Montreal, Quebec.
                 We work with startups, small businesses, and people with ideas to build remarkable digital products.
             </p>
         </div>
@@ -32,42 +32,15 @@
       "@type": "http://schema.org/Organization",
       "name": "The Idea",
       "url": "http://theidea.io",
-      "logo": "http://www.gohobo.co/assets/img/gohobo-logo.png",
+      "logo": "{{ site.env_url }}/assets/img/theidea-logomark.png",
       "sameAs" : [
-          "https://www.facebook.com/Go-Hobo-649912611816927",
-          "http://www.twitter.com/gohoboco",
-          "https://www.instagram.com/gohobo.co"
+          "https://www.facebook.com/theidea.io",
+          "https://twitter.com/theidea_io",
+          "https://angel.co/the-idea-io"
       ]
     }
 </script>
 
-
-<script src="https://cdn.smooch.io/smooch.min.js"></script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function(){ 
-    
-        Smooch.init({ 
-            appToken: '50emn2v6jglh2frqqh9ru137h',
-            customText: {
-                headerText: 'Let\'s talk about your idea.',
-                introductionText: 'What can we help you build?'
-            }
-        });
-
-        var msgBtn = document.querySelectorAll('[data-trigger-messenger]');
-
-        for ( var i = 0; msgBtn.length > i; i++ ) {
-
-            msgBtn[i].addEventListener('click', function(e) {
-               Smooch.open();
-               
-            });
-
-        }
-
-    }, false);
-</script>
 
 <!-- The Google Analytics -->
 <script>

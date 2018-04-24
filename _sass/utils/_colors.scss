@@ -2,7 +2,7 @@
 //    and through SASS functions, we could create an appropriate palette for the
 //    - http://sass-lang.com/documentation/Sass/Script/Functions.html
 
-$color-primary:         #0F7EE4;
+$color-primary:         #2251F3;//#0F7EE4;
 $color-primary-light:   #22B5F3;
 $color-primary-lighter: lighten($color-primary, 45%);
 
@@ -17,4 +17,4 @@ $color-gray-400: lighten($color-gray-500, 25%);
 $color-gray-300: lighten($color-gray-400, 25%);
 $color-gray-200: lighten($color-gray-300, 22%);
 
-$gradient-primary: linear-gradient(-135deg, $color-primary, $color-primary-light);
+$gradient-primary: linear-gradient(-135deg, $color-secondary, $color-primary);

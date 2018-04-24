@@ -2,12 +2,24 @@
 title: The Idea
 email: simgooder@gmail.com
 description: > # this means to ignore new lines
-  This is a long description. 
+  The Idea | We build great websites, mobile apps & digital products. 
 
 permalink: /:categories/:title/
 
-url: "http://localhost:3000"
-#url: "http://theidea.io"
+#url: "http://localhost:3000"
+#env_url: "http://theidea.io"
+env_url: "http://localhost:3001"
+
+# Exclude files
+exclude: [
+  GruntFile.js,
+  Grunt.config.js,
+  package-lock.json,
+  package.json,
+  Gemfile,
+  Gemfile.lock,
+  node_modules
+]
 
 # Build settings
 kramdown:

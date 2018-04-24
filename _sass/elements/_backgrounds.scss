@@ -6,16 +6,70 @@
 }
 
 .bg-spots {
-    background-image: url('../img/spots-background.svg');
+    background-image: url('../img/shapes-background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+// .bg-primary {
+//     background: $gradient-primary;
+// }
+
 .bg-primary {
-    background: $gradient-primary;
+    position: relative;
+
+    background-image: url('../img/shapes-background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        //z-index: 2;
+
+        width: 100%;
+        height: 100%;
+
+        background: $gradient-primary;
+
+        opacity: 0.9;
+    }
 }
 
+
+.bg-desktop {
+    position: relative;
+
+    @include mq-md {
+        background-image: url('https://images.unsplash.com/photo-1504237111663-37d6094bec09?w=1800');
+    }
+    @include mq-sm {
+        background-image: url('https://images.unsplash.com/photo-1504237111663-37d6094bec09?w=800');
+    }
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        //z-index: 2;
+
+        width: 100%;
+        height: 100%;
+
+        background: $gradient-primary;
+
+        opacity: 0.85;
+    }
+}
 
 
     // Modifiers -------------
@@ -26,5 +80,15 @@
         }
         @include mq-sm {
             clip-path: polygon(0% 4%, 100% 0, 100% 100%, 0% 100%);
+        }
+    }
+
+    .-diag-bottom {
+        z-index: $z-content;
+        @include mq-md {
+            clip-path: polygon(0% 0%, 100% 0, 100% 88%, 0% 100%);
+        }
+        @include mq-sm {
+            clip-path: polygon(0% 0%, 100% 0, 100% 94%, 0% 100%);
         }
     }

@@ -1,30 +1,40 @@
 .hero-container {
     @include container-xl;
-
-    display: flex;
-    align-items: center;
     
     @include mq-md {
-        flex-flow: row nowrap;
-        justify-content: space-between;
-
-        padding-top: 8em;
+        padding-top: 12em;
     }
     @include mq-sm {
-        padding-top: 4.5em;
+        padding-top: 12em;
     }
 }
 
     .hero-content {
+        position: relative;
+        z-index: 3;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: center;
         color: $color-white;
+
         @include mq-md {
             max-width: 36em;
+
+
         }
         @include mq-sm {
             h1 {
                 margin-top: 0;
                 font-size: 3em;
             }
+        }
+
+        button {
+            margin-left: 0.25em;
+            margin-right: 0.25em;
+            margin-bottom: 0.5em;
         }
     }
 
@@ -40,6 +50,7 @@
 
     .hero-graphic {
         position: relative;
+        z-index: 3;
 
         padding-left: 1em;
         padding-right: 1em;

@@ -32,7 +32,7 @@
 
     &:hover,
     &:focus {
-        box-shadow: $box-shadow-sm;
+        box-shadow: $box-shadow-md;
     }
 }
 
@@ -46,15 +46,19 @@
     background-color: $color-primary;
     border-color: $color-primary;
 
+    box-shadow: $box-shadow-sm;
+
     &:hover,
     &:focus {
         background-color: darken($color-primary, 2%);
         color: #fff;
 
         border-color: $color-primary;
+
+        box-shadow: $box-shadow-md;
     }
     &:active {
-
+        box-shadow: none;
     }
 }
 
@@ -68,15 +72,19 @@
     background-color: $color-secondary;
     border-color: $color-secondary;
 
+    box-shadow: $box-shadow-sm;
+
     &:hover,
     &:focus {
         background-color: rgba($color-secondary, 0.9);
-        color: #fff;
+        
         border-color: $color-secondary;
+        box-shadow: $box-shadow-md;
 
+        color: #fff;
     }
     &:active {
-
+        box-shadow: none;
     }
 }
 
